@@ -1,0 +1,165 @@
+diff --git a/mfja_3rd_floor_description/urdf/yaskawa_hc10.urdf b/mfja_3rd_floor_description/urdf/yaskawa_hc10.urdf
+index 0b8b232..ad93b2e 100644
+--- a/mfja_3rd_floor_description/urdf/yaskawa_hc10.urdf
++++ b/mfja_3rd_floor_description/urdf/yaskawa_hc10.urdf
+@@ -13,68 +13,110 @@
+     <color rgba="0.03 0.03 0.03 1.0"/>
+   </material>
+
+-  <link name="base_link">
+-    <visual>
+-      <geometry>
+-        <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/base_link.dae"/>
+-      </geometry>
+-      <material name="yaskawa_blue"/>
+-    </visual>
+-  </link>
++<link name="base_link">
++  <visual>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/base_link.dae"/>
++    </geometry>
++    <material name="yaskawa_blue"/>
++  </visual>
++
++  <collision>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/collision/base_link.stl"/>
++    </geometry>
++  </collision>
++</link>
+
+   <link name="link_1_s">
+-    <visual>
+-      <geometry>
+-        <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_1_s.dae"/>
+-      </geometry>
+-      <material name="yaskawa_blue"/>
+-    </visual>
+-  </link>
++  <visual>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_1_s.dae"/>
++    </geometry>
++    <material name="yaskawa_blue"/>
++  </visual>
++
++  <collision>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/collision/link_1_s.stl"/>
++    </geometry>
++  </collision>
++</link>
+
+   <link name="link_2_l">
+-    <visual>
+-      <geometry>
+-        <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_2_l.dae"/>
+-      </geometry>
+-      <material name="yaskawa_blue"/>
+-    </visual>
+-  </link>
++  <visual>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_2_l.dae"/>
++    </geometry>
++    <material name="yaskawa_blue"/>
++  </visual>
++
++  <collision>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/collision/link_2_l.stl"/>
++    </geometry>
++  </collision>
++</link>
+
+   <link name="link_3_u">
+-    <visual>
+-      <geometry>
+-        <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_3_u.dae"/>
+-      </geometry>
+-      <material name="yaskawa_blue"/>
+-    </visual>
+-  </link>
++  <visual>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_3_u.dae"/>
++    </geometry>
++    <material name="yaskawa_blue"/>
++  </visual>
++
++  <collision>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/collision/link_3_u.stl"/>
++    </geometry>
++  </collision>
++</link>
+
+   <link name="link_4_r">
+-    <visual>
+-      <geometry>
+-        <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_4_r.dae"/>
+-      </geometry>
+-      <material name="yaskawa_blue"/>
+-    </visual>
+-  </link>
++  <visual>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_4_r.dae"/>
++    </geometry>
++    <material name="yaskawa_blue"/>
++  </visual>
++
++  <collision>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/collision/link_4_r.stl"/>
++    </geometry>
++  </collision>
++</link>
+
+   <link name="link_5_b">
+-    <visual>
+-      <geometry>
+-        <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_5_b.dae"/>
+-      </geometry>
+-      <material name="yaskawa_blue"/>
+-    </visual>
+-  </link>
++  <visual>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_5_b.dae"/>
++    </geometry>
++    <material name="yaskawa_blue"/>
++  </visual>
++
++  <collision>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/collision/link_5_b.stl"/>
++    </geometry>
++  </collision>
++</link>
+
+   <link name="link_6_t">
+-    <visual>
+-      <geometry>
+-        <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_6_t.dae"/>
+-      </geometry>
+-      <material name="yaskawa_blue"/>
+-    </visual>
+-  </link>
++  <visual>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/visual/link_6_t.dae"/>
++    </geometry>
++    <material name="yaskawa_blue"/>
++  </visual>
++
++  <collision>
++    <geometry>
++      <mesh filename="package://mfja_3rd_floor_description/models/yaskawa_hc10/meshes/hc10/collision/link_6_t.stl"/>
++    </geometry>
++  </collision>
++</link>
+
+   <link name="tool0"/>
+   <link name="base"/>
