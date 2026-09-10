@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="mJebV-5fmhMe8vE7BKU_">
-    <mxGraphModel dx="1406" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,49 +154,49 @@
             <mxPoint x="670" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Installation d&#39;Ubuntu 24.04" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Installation d&#39;Ubuntu 24.04&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="50" y="296" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-03c780f0-7fff-b77b-0b96-6fbc24aedde1&quot;&gt;&lt;span style=&quot;color: rgb(17, 17, 17); background-color: transparent; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Installation de ROS 2 Jazzy&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-03c780f0-7fff-b77b-0b96-6fbc24aedde1&quot;&gt;&lt;span style=&quot;color: rgb(17, 17, 17); background-color: transparent; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;Installation de ROS 2 Jazzy&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="50" y="346" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Configuration du simulateur Gazebo&lt;/font&gt;&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="50" y="396" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Intégration de la caméra RGB-D dans Gazebo&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="210" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Récupération des nuages de points sous ROS 2&lt;/font&gt;&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="210" y="345" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Configuration du pipeline de mapping&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="210" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Installation de&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;MoveIt 2&lt;/font&gt;&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="370" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Paramétrage avec MoveIt Setup Assistant&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="370" y="345" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Implémentation de l&#39;API de Motion Planning&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="370" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Installation du pilote MotoROS2&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="530" y="296" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Étude de l&#39;architecture de communication Yaskawa&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="530" y="346" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Configuration de l&#39;interface ROS 2 / Contrôleur&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="530" y="396" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Rédaction de l&#39;Introduction et du Contexte&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="690" y="296" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Création des WBS et WPD&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="690" y="346" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Rédaction de la partie Environnement &amp;amp; Vision 3D&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="690" y="396" as="geometry" />
         </mxCell>
         <mxCell id="2kP5UPTKdJhVsl-1ABTg-53" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
@@ -340,13 +340,13 @@
             <mxPoint x="30" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Importation du robot Yaskawa HC10&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="50" y="455" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Intégration de l&#39;environnement virtuel&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="50" y="505" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Validation des mouvements&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="50" y="555" as="geometry" />
         </mxCell>
         <mxCell id="2kP5UPTKdJhVsl-1ABTg-92" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
@@ -382,10 +382,10 @@
             <mxPoint x="190" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Extraction de la géométrie des obstacles&lt;br&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="210" y="455" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;&quot;&gt;Transmission des données&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;&quot;&gt;au système de planification&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="210" y="505" as="geometry" />
         </mxCell>
         <mxCell id="2kP5UPTKdJhVsl-1ABTg-112" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -424,13 +424,13 @@
             <mxPoint x="350" y="439" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Intégration de la &lt;i style=&quot;&quot;&gt;Planning Scene&lt;/i&gt; avec données caméra&lt;/font&gt;&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="370" y="454" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Génération des trajectoires d&#39;évitement d&#39;obstacles&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="370" y="504" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-122" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-122" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Test et validation des trajectoires générées&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="370" y="554" as="geometry" />
         </mxCell>
         <mxCell id="2kP5UPTKdJhVsl-1ABTg-123" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
@@ -466,10 +466,10 @@
             <mxPoint x="510" y="432" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Vérification de l&#39;envoi de commandes articulaires&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="530" y="447" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-131" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-131" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Exécution des trajectoires MoveIt 2 sur le robot&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="530" y="497" as="geometry" />
         </mxCell>
         <mxCell id="2kP5UPTKdJhVsl-1ABTg-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -508,10 +508,10 @@
             <mxPoint x="670" y="432" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-150" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-150" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Rédaction de la partie Planification &amp;amp; Contrôle&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="690" y="447" as="geometry" />
         </mxCell>
-        <mxCell id="2kP5UPTKdJhVsl-1ABTg-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="2kP5UPTKdJhVsl-1ABTg-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Synthèse des résultats et Conclusion&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="690" y="497" as="geometry" />
         </mxCell>
         <mxCell id="2kP5UPTKdJhVsl-1ABTg-152" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
