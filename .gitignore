@@ -4,3 +4,7 @@ log/
 __pycache__/
 .vscode/
 .colcon*
+*.pyc
+*.pyo
+*.swp
+.DS_Store

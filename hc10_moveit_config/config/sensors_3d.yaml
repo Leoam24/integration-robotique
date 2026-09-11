@@ -1,0 +1,16 @@
+sensors:
+  - right_rail_rgbd_pointcloud
+
+right_rail_rgbd_pointcloud:
+  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+  point_cloud_topic: /room_315/perception/right_rail_rgbd/points
+  max_range: 5.0
+  point_subsample: 4
+  padding_offset: 0.05
+  padding_scale: 1.0
+  max_update_rate: 1.0
+  filtered_cloud_topic: /room_315/perception/right_rail_rgbd/filtered_points
+
+octomap_frame: world
+octomap_resolution: 0.05
+max_range: 5.0
