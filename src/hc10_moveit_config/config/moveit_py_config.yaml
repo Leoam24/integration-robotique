@@ -1,0 +1,31 @@
+/**:
+  ros__parameters:
+    planning_scene_monitor_options:
+      name: "planning_scene_monitor"
+      robot_description: "robot_description"
+      joint_state_topic: "/yaskawa_hc10_1/joint_states"
+      attached_collision_object_topic: "/moveit_cpp/planning_scene_monitor"
+      publish_planning_scene_topic: "/moveit_cpp/publish_planning_scene"
+      monitored_planning_scene_topic: "/moveit_cpp/monitored_planning_scene"
+      wait_for_initial_state_timeout: 15.0
+
+    planning_pipelines:
+      pipeline_names: ["ompl"]
+
+    plan_request_params:
+      planning_attempts: 5
+      planning_pipeline: ompl
+      max_velocity_scaling_factor: 1.0
+      max_acceleration_scaling_factor: 1.0
+
+    trajectory_execution:
+      allowed_execution_duration_scaling: 10.0
+      allowed_goal_duration_margin: 20.0
+
+    # Désactive la vérification stricte des timestamps pour éviter le blocage à 0.0
+    current_state_monitor:
+      publisher_plugin: ""
+      joint_state_topic: "/yaskawa_hc10_1/joint_states"
+      global_frame: "world"
+      enable_stats: false
+      usestampted_transforms: false
