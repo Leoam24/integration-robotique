@@ -10,16 +10,19 @@ from moveit_configs_utils import MoveItConfigsBuilder
 def generate_launch_description():
 
     moveit_config = (
-        MoveItConfigsBuilder(
-            "yaskawa_hc10",
-            package_name="hc10_moveit_config",
-        )
-        .planning_scene_monitor(
-            publish_robot_description=True,
-            publish_robot_description_semantic=True,
-        )
-        .to_moveit_configs()
+    MoveItConfigsBuilder(
+        "yaskawa_hc10",
+        package_name="hc10_moveit_config",
     )
+    .planning_scene_monitor(
+        publish_robot_description=True,
+        publish_robot_description_semantic=True,
+    )
+    .sensors_3d(
+        file_path="config/sensors_3d.yaml"
+    )
+    .to_moveit_configs()
+)
 
     # MoveIt utilise directement les joint_states du robot Gazebo
     move_group = Node(
@@ -64,6 +67,24 @@ def generate_launch_description():
             "--yaw", "1.57",
             "--frame-id", "world",
             "--child-frame-id", "base_link",
+    ],
+    )
+
+    world_to_camera = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        name="room315_right_rgbd_tf",
+        output="screen",
+        arguments=[
+        "--x", "-14.9",
+        "--y", "-4.70",
+            "--z", "3.95",
+            "--roll", "0",
+            "--pitch", "1.5708",
+            "--yaw", "0",
+            "--frame-id", "world",
+            "--child-frame-id",
+            "room315_right_rail_rgbd_optical_frame",
         ],
     )
 
@@ -92,6 +113,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         world_to_robot,
+    world_to_camera,
         robot_state_publisher,
         move_group,
         rviz,

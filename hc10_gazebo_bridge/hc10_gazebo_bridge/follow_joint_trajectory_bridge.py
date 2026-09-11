@@ -116,7 +116,7 @@ class FollowJointTrajectoryBridge(Node):
             + last_point.time_from_start.nanosec * 1e-9
         )
 
-        timeout = max(duration + 5.0, 8.0)
+        timeout = max(duration * 3.0 + 5.0, 30.0)
         tolerance = 0.02
 
         start = time.monotonic()
