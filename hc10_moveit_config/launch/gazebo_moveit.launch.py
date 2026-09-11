@@ -76,9 +76,9 @@ def generate_launch_description():
         name="room315_right_rgbd_tf",
         output="screen",
         arguments=[
-        "--x", "-14.9",
-        "--y", "-4.70",
-            "--z", "3.95",
+            "--x", "-14.559",
+            "--y", "-3.465",
+            "--z", "4.50",
             "--roll", "0",
             "--pitch", "1.5708",
             "--yaw", "0",

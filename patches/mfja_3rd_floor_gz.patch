@@ -1,3 +1,16 @@
+diff --git a/mfja_3rd_floor_description/models/room315_visual_observation_rig/model.sdf b/mfja_3rd_floor_description/models/room315_visual_observation_rig/model.sdf
+index 0421d35..a47cab0 100644
+--- a/mfja_3rd_floor_description/models/room315_visual_observation_rig/model.sdf
++++ b/mfja_3rd_floor_description/models/room315_visual_observation_rig/model.sdf
+@@ -4,7 +4,7 @@
+     <static>true</static>
+ 
+     <link name="right_rail_rgbd_camera_link">
+-      <pose>-14.9 -4.70 4.2 0 1.5708 0</pose>
++      <pose>-14.559 -3.465 4.75 0 1.5708 0</pose>
+ 
+       <visual name="camera_body_visual">
+         <geometry>
 diff --git a/mfja_3rd_floor_description/urdf/yaskawa_hc10.urdf b/mfja_3rd_floor_description/urdf/yaskawa_hc10.urdf
 index 0b8b232..c6eae53 100644
 --- a/mfja_3rd_floor_description/urdf/yaskawa_hc10.urdf
