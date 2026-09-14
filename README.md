@@ -53,6 +53,7 @@ Démonstration de la séquence complète de préhension, manipulation et dépose
 
 ### 2. Contrôle via l'API Python MoveIt
 Démonstration de la génération dynamique de trajectoires articulaires sans collision via script Python, outrepassant les contrôles manuels de RVIZ.
+[API-python.webm](https://github.com/user-attachments/assets/59b59e22-54b3-4725-9f2a-25e405e9ba11)
 
 <video src="./video/API-python.webm" width="100%" controls></video>
 
