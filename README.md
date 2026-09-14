@@ -1,63 +1,71 @@
-# Projet d'Intégration Robotique : Yaskawa HC10 & ROS 2
+# 🤖 Intégration ROS 2 - Bras Manipulateur Yaskawa HC10
 
-Dépôt officiel du projet de groupe pour l'intégration de ROS 2 avec le bras manipulateur Yaskawa HC10 (Étude de faisabilité - UPSSITECH SRI).
+Ce projet d'intégration a pour objectif de concevoir un pipeline complet de génération de trajectoires sans collision appliqué au bras manipulateur Yaskawa HC10. Réalisé sous la forme d'une étude de faisabilité, il démontre l'intégration d'un environnement ROS 2 pour la robotique industrielle.
 
-## Documentation Officielle
-- [Sujet officiel du projet (Google Doc)](https://docs.google.com/document/d/1znpp6cdlQR97A_atjmb55jRE1lBgRqDBimBcdWyu_ww/edit?tab=t.0#heading=h.9zo5dtp9fi5d) 
+## 📑 Table des matières
+- [Contexte et Objectifs](#contexte-et-objectifs)
+- [Architecture du Projet (Work Packages)](#architecture-du-projet)
+- [Prérequis et Technologies](#prérequis-et-technologies)
+- [Démonstrations Vidéos](#démonstrations-vidéos)
+- [Équipe du Projet](#équipe-du-projet)
 
----
+## 🎯 Contexte et Objectifs
 
-## Répartition des Rôles (Équipe)
-- **Simulation (ROS 2 / Gazebo)** : Niel
-- **Intégration de capteurs (Caméra RGB-D)** : Djibril et Marius
-- **Génération de trajectoire (MoveIt 2)** : Léo et Imran
-- **Contrôle & MotoROS2** : Mohamed et Wassim
+L'objectif principal est de permettre au robot d'évoluer de manière autonome dans un espace encombré sans entrer en collision avec les éléments de sa cellule. Le système repose sur trois piliers fondamentaux :
+* **Simulation et modélisation réaliste :** Déploiement d'un jumeau numérique sous Gazebo reproduisant le comportement cinématique du HC10.
+* **Perception volumétrique active :** Intégration d'une caméra 3D (RGB-D) pour capturer la géométrie des obstacles et alimenter la scène en continu.
+* **Planification et pilotage :** Utilisation de MoveIt 2 pour le calcul de trajectoires en temps réel et interface avec MotoROS2 pour la commande industrielle.
 
----
+## 🏗️ Architecture du Projet
 
-## 1. Environnement de Simulation & Prérequis
-- **OS** : Ubuntu 24.04.4 (Noble Numbat)
-  - *Configuration VM recommandée* : 50 Go min. (Disque), 8 Go min. (RAM), 4 cœurs min. (Processeur), Accélération 3D cochée, Mémoire graphique au maximum.
-- **Middleware** : [ROS 2 Jazzy](https://docs.ros.org/en/jazzy/Installation/Alternatives/Ubuntu-Development-Setup.html)
-- **Référence Simulation** : [mfja_3rd_floor_gz (INTERNSHIP-ALI-2026)](https://github.com/aip-primeca-occitanie/mfja_3rd_floor_gz/tree/INTERNSHIP-ALI-2026) 
+Le projet est divisé en 4 axes majeurs (Work Packages) :
 
----
+* **WP1 | Environnement & Simulation :** Mise en place de l'environnement de simulation de la MFJA sous Ubuntu 24.04, ROS 2 Jazzy et Gazebo.
+* **WP2 | Perception 3D & Vision :** Intégration d'un capteur RGB-D, traitement des nuages de points et publication des données (Octomap) décrivant l'encombrement de l'espace.
+* **WP3 | Génération de trajectoires (MoveIt 2) :** Implémentation de l'API de Motion Planning de MoveIt 2 pour générer des trajectoires d'évitement d'obstacles.
+* **WP4 | Contrôle industriel (MotoROS2) :** Établissement de la chaîne de communication entre ROS 2 et le contrôleur Yaskawa YRC1000 pour l'exécution des mouvements.
 
-## Étapes du Projet
+## 💻 Prérequis et Technologies
 
-### 1. Mise en place de l'environnement de simulation
-- Installation de ROS 2 Jazzy et Gazebo sur Ubuntu 24.04.4.
-- Prise en main et configuration de l'environnement fourni.
-- Vérification du bon fonctionnement du robot et de sa scène simulée .
+Pour reproduire les résultats de ce projet, l'environnement suivant est nécessaire :
+* Système d'exploitation : **Ubuntu 24.04 (Noble Numbat)**.
+* Middleware : **ROS 2 Jazzy**.
+* Simulation : **Gazebo**.
+* Planification : **MoveIt 2**.
+* Contrôle Yaskawa : **MotoROS2**.
 
-### 2. Perception 3D de l'environnement
-- Intégration d'une caméra RGB-D dans la simulation pour détecter la position, dimensions (longueur, largeur, hauteur) et orientation des obstacles.
-- Référence outil : [ros2_rgbd_mapping](https://github.com/yangyonggit/ros2_rgbd_mapping) (odométrie visuelle, fusion volumétrique, grille d'occupation 2D).
+## 🎥 Démonstrations Vidéos
 
-### 3. Traitement des données capteur par ROS 2
-- Récupération et traitement des flux de la caméra 3D par les nœuds ROS 2 pour alimenter la carte d'occupation.
+Voici les résultats obtenus lors de nos différentes phases de test en simulation. 
 
-### 4. Motion Planning avec MoveIt 2
-- Installation et configuration de MoveIt 2 à l'aide du *Setup Assistant*.
-- Génération et exécution de trajectoires sans collisions pour le bras manipulateur.
-- Utilisation de l'API MoveIt 2 (C++/Python) .
-- **Références** : 
-  - [Documentation MoveIt 2](https://moveit.picknik.ai/main/index.html) 
-  - [Setup Assistant Tutorial](https://moveit.picknik.ai/main/doc/examples/setup_assistant/setup_assistant_tutorial.html) 
+> **Note pour l'intégration des vidéos :** Cliquez sur les miniatures ci-dessous pour visionner les démonstrations.
 
-### 5. Contrôle du Yaskawa HC10 via MotoROS2
-- Prise en main de MotoROS2 et de son architecture.
-- Établissement de la communication entre ROS 2 et le contrôleur réel/simulé du Yaskawa HC10 .
-- Vérification de l'envoi effectif des commandes de mouvement.
-- **Références** :
-  - [MotoROS2](https://github.com/yaskawa-global/motoros2) 
-  - [ros_yaskawa_hc10](https://github.com/aip-primeca-occitanie/ros_yaskawa_hc10) 
+## 🎥 Démonstrations Vidéos
+
+Voici les résultats obtenus lors de nos différentes phases de test en simulation :
+
+### 1. Application Pick and Place
+Démonstration de la séquence complète de préhension, manipulation et dépose d'un objet par le bras Yaskawa HC10.
+
+<video src="./video/pick-and-place-demo.webm" width="100%" controls></video>
 
 ---
 
-## 📚 Ressources & Documentation Utiles
-- **Projets / Starters similaires** :
-  - [YaskawaEurope/ros2-starter-for-yaskawa-robots](https://github.com/YaskawaEurope/ros2-starter-for-yaskawa-robots) 
-  - [Démonstration Vidéo YouTube](https://youtu.be/-TZbwtD8xG0?t=382) 
-- **Documentation Matériel (Yaskawa HC10)** :
-  - Flyer & Fiches techniques HC10 / HC10DT
+### 2. Contrôle via l'API Python MoveIt
+Démonstration de la génération dynamique de trajectoires articulaires sans collision via script Python, outrepassant les contrôles manuels de RVIZ.
+
+<video src="./video/API-python.webm" width="100%" controls></video>
+
+---
+
+### 3. Perception 3D et Détection d'Obstacles (Caméra RGB-D)
+Démonstration de l'intégration du flux de la caméra 3D dans Gazebo et de la mise à jour dynamique de l'environnement (Planning Scene / OctoMap) lors de l'apparition d'un obstacle.
+
+<video src="./video/movement-camera.webm" width="100%" controls></video>
+## 👥 Équipe du Projet
+
+Ce projet a été réalisé en groupe avec une répartition par pôles d'expertise :
+* **WP1 (Simulation) :** Niel.
+* **WP2 (Vision 3D) :** Djibril, Marius.
+* **WP3 (MoveIt 2) :** Léo, Imran, Niel.
+* **WP4 (MotoROS2) :** Mohamed, Wassim, Wissal.
