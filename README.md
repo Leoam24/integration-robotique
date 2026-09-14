@@ -36,12 +36,6 @@ Pour reproduire les résultats de ce projet, l'environnement suivant est nécess
 
 ## 🎥 Démonstrations Vidéos
 
-Voici les résultats obtenus lors de nos différentes phases de test en simulation. 
-
-> **Note pour l'intégration des vidéos :** Cliquez sur les miniatures ci-dessous pour visionner les démonstrations.
-
-## 🎥 Démonstrations Vidéos
-
 Voici les résultats obtenus lors de nos différentes phases de test en simulation :
 
 ### 1. Application Pick and Place
@@ -53,7 +47,6 @@ Démonstration de la séquence complète de préhension, manipulation et dépose
 
 ### 2. Contrôle via l'API Python MoveIt
 Démonstration de la génération dynamique de trajectoires articulaires sans collision via script Python, outrepassant les contrôles manuels de RVIZ.
-[API-python.webm](https://github.com/user-attachments/assets/59b59e22-54b3-4725-9f2a-25e405e9ba11)
 
 <video src="./video/API-python.webm" width="100%" controls></video>
 
