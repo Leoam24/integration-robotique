@@ -40,21 +40,26 @@ Voici les résultats obtenus lors de nos différentes phases de test en simulati
 
 ### 1. Application Pick and Place
 Démonstration de la séquence complète de préhension, manipulation et dépose d'un objet par le bras Yaskawa HC10.
-[API-python.webm](https://github.com/user-attachments/assets/5eb60a92-bc94-4f5b-9393-e2646594379c)
+
+
 
 ---
 
 ### 2. Contrôle via l'API Python MoveIt
 Démonstration de la génération dynamique de trajectoires articulaires sans collision via script Python, outrepassant les contrôles manuels de RVIZ.
 
-<video src="./video/API-python.webm" width="100%" controls></video>
+https://github.com/user-attachments/assets/d92ce481-725b-4ef7-9960-911568607399
+
+
 
 ---
 
 ### 3. Perception 3D et Détection d'Obstacles (Caméra RGB-D)
 Démonstration de l'intégration du flux de la caméra 3D dans Gazebo et de la mise à jour dynamique de l'environnement (Planning Scene / OctoMap) lors de l'apparition d'un obstacle.
 
-<video src="./video/movement-camera.webm" width="100%" controls></video>
+https://github.com/user-attachments/assets/74d32fe4-4c4f-41f5-a97a-7030bd452230
+
+
 ## 👥 Équipe du Projet
 
 Ce projet a été réalisé en groupe avec une répartition par pôles d'expertise :
