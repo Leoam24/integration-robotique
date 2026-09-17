@@ -41,6 +41,9 @@ Voici les résultats obtenus lors de nos différentes phases de test en simulati
 ### 1. Application Pick and Place
 Démonstration de la séquence complète de préhension, manipulation et dépose d'un objet par le bras Yaskawa HC10.
 
+https://github.com/user-attachments/assets/aac10849-25bc-4b47-96ef-9a31878a78d5
+
+
 
 
 ---
